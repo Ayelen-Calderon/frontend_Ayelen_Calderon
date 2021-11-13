@@ -1,0 +1,194 @@
+html {
+  width: 100%;
+  
+}
+body {
+  width: 100%;
+  margin: 0;
+  
+}
+/* barra superior */
+.barrasuperior {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: black;
+
+}
+.grandesofertas,
+.lista {
+  width: 40%;
+ background: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+}
+
+.navprimera {
+  color: #f3f3f3;
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 10px; 
+  text-decoration: none;
+}
+/* menu principal */
+.menuprincipal {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+  background-color: #f0a83e;
+  padding: 24px; 
+
+}
+
+.menu a {
+   margin: 10px; 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 15px;
+  color: #f3f3f3;
+}
+/* ..........banner ...........*/
+
+.banner {
+  background-image: url(../imagen/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+  height: 409px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center; 
+}
+#mensajebanner {
+  padding: 40px;
+text-align: center;  
+Width: 345px;
+Height:170px
+}
+#p1 {
+  background-color: #f3f3f3;
+  color: #3C2313;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 35px;
+  border-radius: 5px;
+}
+
+#mensajebanner button{
+    background-color: #f0a83e;
+    font-size: 1.3em;
+    border: #f0a83e;
+    padding: 2%;
+    border-radius: 10px;
+}
+#p2 {
+    font-size: 1.5em;
+}
+button a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+/* navbar 2 */
+
+.seccionproductos {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  
+}
+.seccionproductos h1{
+  font-size: 3em;
+  color:#3C2313
+}
+.seccionproductos ul{
+display: flex;
+justify-content: space-around;
+  margin: 0%;
+  padding: 0%;
+}
+.seccionproductos ul li a{
+  padding: 1em;
+  font-size: 1em;
+  color:#666666;
+  text-decoration: none;
+}
+
+/* lista de productos */
+
+.productos{
+  width: 100%;
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+
+}
+.churrasquito, .comedero, .juguetehuesito{
+ 
+  width: 25%;
+  text-align: center;
+}
+.churrasquito h3, .comedero h3, .juguetehuesito h3{
+  color: #3C2313;
+  font-size: 15px;
+}
+.churrasquito p, .comedero p, .juguetehuesito p{
+  color:#f0a83e;
+  font-size: 15px;
+}
+
+footer{
+}  
+ 
+.piedepagina{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3C2313;
+  padding: 2%;
+}
+.piedepagina div{
+  width: 40%;
+}
+#logopiedepag{
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ } 
+ #logopiedepag i{
+ margin-right: 0%;
+ padding-right: 0%;
+  color: #8A8787;
+  font-size: 2.3em;
+ }
+ #logopiedepag div{
+  margin: 0%;
+   color: #f3f3f3;
+   text-align: center;
+   width:80%;
+   padding: 3%;
+   
+   
+ }
+ #logopiedepag div p{
+   font-size: 1em;
+  margin: 0%;
+  padding: 1%;
+  
+ }
+
+ 
+h5{
+  font-size: 1em;
+  background-color: #222222;
+  color: #FFFFFF;
+  margin: 0%;
+  text-align: center;  
+}
