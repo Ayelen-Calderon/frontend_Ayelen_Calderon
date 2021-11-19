@@ -1,45 +1,68 @@
-html { background-color: rgb(243, 241, 146,o.4);
-    height: 100%;
+html {
+  background-color: rgb(243, 241, 146, o.4);
+  height: 100%;
 }
-header {background-image: url("../imagenes/batman.jpg");
-    background-size: 25%;
-    text-align:center;
+header {
+  background-image: url("../imagenes/batman.jpg");
+  background-size: 33%;
+  width: 100%;
+  text-align: center;
+  background-position: 0.1em;
+  border-top: solid 1em #e4d341;
 }
 
-h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #005677; 
-    text-transform:uppercase;
-    background-color: #C4C4C4;
-    width: 100%;
-    height: 10%;
-    left: 0px;
-    top: 188px;
-    letter-spacing: 0.1em;
-    }
-    
-body {font-family: Verdana, Tahoma, sans-serif;
-    min-height: 100%;}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #005677;
+  text-transform: uppercase;
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 10%;
+  left: 0px;
+  top: 188px;
+  letter-spacing: 0.1%;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  min-height: 100%;
+}
 #boton {
   display: flex;
   justify-content: flex-end;
+  padding: 3%;
 }
-button{
-background-image: linear-gradient (to bottom, #969194, #b8f2f7); 
-font-size: 100%;
+#boton button {
+  background-color: #005677;
+  padding: o.1%;
 }
-h2 {color: #005677;
-    background:#C4C4C4;
-    text-transform:uppercase;
+#boton button a {
+  color: #c4c4c4;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+h2 {
+  color: #005677;
+  background: #c4c4c4;
+  text-transform: uppercase;
+}
+.curriculum{
+  margin-left: 10em;
 }
 
-footer{
-    height: 30px;
-    font-family: Times New Roman;
-    font-size: 15px;
-    font-style: normal ;
-    letter-spacing: 1em;
-    text-align: center;
-    background: #005677;
-    color: #FFFFFF;
-
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: Times New Roman;
+  font-size: 1.5em; 
+  letter-spacing: 0.1em;
+  background: #005677;
+  color: #ffffff;
+  padding: 0.1%;
+  margin: 0%;
 }
+

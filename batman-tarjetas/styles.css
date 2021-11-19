@@ -1,14 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
 html {
-  width: 100%;
+  width: 100V;
 }
 
 body {
   margin: 0%;
   width: 100%;
   height: 100%;
+  background-color: #E5E5E5;
 }
 .barranav {
-  background-color: #030303b4;
+  background-color: #D1891C;
   padding: 6px;
   margin: 0%;
   border: 0%;
@@ -19,29 +25,32 @@ body {
   font-size: 10px;
 }
 h1 {
-  background: rgb(17, 17, 100);
+  background: #00669F;
   margin: 0;
   padding: 10px;
   font-size: 300%;
   color: antiquewhite;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  
 }
 .contenedor {
-  position: relative;
-  padding: 10%;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  /* padding: 10%; */
 }
+
 .izquierda button,
 .centro button,
 .derecha button {
-  background-color: rgba(27, 134, 221, 0.856);
+  background-color:#00669F;
   padding: 5px 7px;
   margin: 20px;
 }
 .izquierda button a,
 .centro button a,
 .derecha button a {
-  color: black;
+  color: #F3F3F3;
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -49,39 +58,82 @@ h1 {
   text-decoration: none;
   font-weight: bold;
 }
-.izquierda {
-  position: relative;
-  float: left;
-  width: 25%;
-  border: solid 5px rgb(14, 14, 99);
+.izquierda, .centro, .derecha{
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 2%;
   border-radius: 20px;
 }
-.centro {
+.fondocorazon{
+  background-image: url(/imagenes/batman-fondo.png);
+  background-size: cover;
+  width: 300px;
+  height: 10em;
+}
+.fondocorazon img{
+  width: 13%;
+  padding: 2%;
+}
+/* .imgfondo {
+ width: 100%;
+}
+.corazon{
   position: relative;
-  display: inline-block;
-  width: 25%;
-  border: solid 5px rgb(14, 14, 99);
-  border-radius: 20px;
-}
-.derecha {
-  position: relative;
-  float: right;
-  width: 25%;
-  border: solid 5px rgb(14, 14, 99);
-  border-radius: 20px;
-}
-.imgfondo {
-  position: static;
-  width: 100%;
-  background-color: rgb(14, 14, 99);
-}
+  z-index: 10;
+  bottom: 27%;
+  right: 40%;
+  width: 10%;
+} */
 .imgcircular {
-  position: absolute;
-  right: 25%;
-  top: 20%;
+ position: relative;
+ bottom: 15%;
   border-radius: 50%;
+  width: 50%;
 }
+
 .parrafo {
-  margin-top: 30px;
-  padding: 20px;
+ padding: 2%;
+ text-align: center;
 }
+/* ----------------------------------pie de pagina-------------------------- */
+footer {
+ width: 100vw;
+ margin: 0%;
+ display: flex;
+ justify-content:space-around;
+ flex-direction: row-reverse;
+ background-color: #00669F;
+}
+.frase-footer p{
+  width: 60vw;
+ text-align: end;
+color: #E5E5E5;
+font-size: 1rem;
+  font-weight: bold;
+}
+.imgfooter img{
+  width: 8vw;}
+
+.imgfooter{
+width: 32vw;
+align-items: center;
+  display: flex;
+  justify-content: end;
+
+}
+
+  
+
+/* @media screen and (max-width:480px) {
+ footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #00669F;
+   flex-direction: row-reverse;
+ }
+  
+}   */
