@@ -33,11 +33,22 @@ h1 {
   font-family:Arial, Helvetica, sans-serif;
   
 }
+.navdeingreso ul{
+  list-style-type: none;
+  display: flex;
+justify-content: flex-end;
+background-color: rgb(14, 23, 53);
+padding: 0.3%;
+}
+.navdeingreso ul li a{
+  margin: 1em;
+  color: #E5E5E5;
+}
 .contenedor {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
-  /* padding: 10%; */
+ 
 }
 
 .izquierda button,
@@ -77,16 +88,10 @@ h1 {
   width: 13%;
   padding: 2%;
 }
-/* .imgfondo {
- width: 100%;
+.centro .fondocorazon{
+  background-image: url(/imagenes/chica-fondo.png);
 }
-.corazon{
-  position: relative;
-  z-index: 10;
-  bottom: 27%;
-  right: 40%;
-  width: 10%;
-} */
+
 .imgcircular {
  position: relative;
  bottom: 15%;
@@ -123,6 +128,13 @@ align-items: center;
   display: flex;
   justify-content: end;
 
+}
+#email:hover, #Contraseña:hover, #nombre:hover{
+  border: 2px solid rgb(rgb(111, 236, 111);
+}
+#email:focus, #Contraseña:focus, #nombre:focus{
+  border: 2px solid rgb(111, 236, 111);
+  background-color: #cef7da;
 }
 
   

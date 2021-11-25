@@ -5,15 +5,13 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title> Front Cat & Dog </title>
     <link rel="stylesheet" href="./css/styls.css" />
-    <script
-      src="https://kit.fontawesome.com/5b1b05c9ad.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/5b1b05c9ad.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <header>
       <!-- Menú regional -->
-      <div class="barrasuperior">
+      <section class="barrasuperior">
 
         <div class="grandesofertas">
           <a class="navprimera" href=",,">Grandes ofertas en comederos</a>
@@ -27,28 +25,33 @@
             </nav>
         </div>
 
-      </div>
+      </section>
 
+      <!-- menu principal -->
+      
+      <section class="menuprincipal">
+
+        <img class="logo" src="imagen/Logo.png" />
+        <div class="menuhamburguesa"> 
+          <i class="fas fa-bars"></i>
+
+        </div>
+        
+        <nav>
+          <div class="menu">
+            <a href="...."> <i class="fas fa-paw">Categorías</i></a>
+            <a href="...."><i class="fas fa-paw">Pets</i></a>
+            <a href="...."><i class="fas fa-paw">Nosotros</i></a>
+            <a href="...."><i class="fas fa-paw">Contactanos</i></a>
+          </div> 
+        </nav>
+        
+      </section>
     </header>
-    <!-- menu principal -->
+    
     <main> 
 
-    <div class="menuprincipal">
-
-      <img class="logo" src="imagen/Logo.png" />
-
-      <nav>
-        <div class="menu">
-          <a href="...."> <i class="fas fa-paw">Categorías</i></a>
-          <a href="...."><i class="fas fa-paw">Pets</i></a>
-          <a href="...."><i class="fas fa-paw">Nosotros</i></a>
-          <a href="...."><i class="fas fa-paw">Contactanos</i></a>
-        </div> 
-      </nav>
-
-    </div>
-
-    <div class="banner">
+    <section class="banner">
 
       <div id="mensajebanner">
         <p id="p1">¡Es un placer tenerte aquí!</p>
@@ -58,7 +61,8 @@
         </button> 
       </div>
 
-    </div>
+    </section>
+
 <section class="seccionproductos">
 
   
@@ -75,9 +79,9 @@
   
 </section>
     
-<div class="productos">
+<section class="productos">
 
-    <div class="churrasquito">
+    <article class="churrasquito">
       <img id="imgproductos" src="imagen/churrasquito.png" alt="Juguete Churrasquito" />
       <h3>
         Juguete Churrasquito
@@ -86,9 +90,9 @@
       <p>
         $150
       </p>
-   </div>
+   </article>
 
-  <div class="comedero">
+  <article class="comedero">
     <img id="imgproductos" src="imagen/comedero.png" alt="comedero" />
     <h3>
       Comedero para Perro
@@ -96,9 +100,9 @@
     <p>
       $250
     </p>
-  </div>
+  </article>
   
-  <div class="juguetehuesito">
+  <article class="juguetehuesito">
     <img id="imgproductos" src="imagen/Huesito.png" alt="juguete huesito" />
     <h3>
       Juguete Huesito 
@@ -107,15 +111,20 @@
     <p>
       $150
     </p>
-  </div>
+  </article>
 
-</div>
+</section>
+
 </main>
-<footer>
-  <div class="piedepagina">
 
-    <div>
-      <div id="logopiedepag">
+<footer>
+  <section class="piedepagina">
+
+    <div class="menufuter">
+
+   
+    
+      <article id="logopiedepag">
         <i class="fas fa-map-marker-alt"></i>
         <div>
         <p> Localidad</p>
@@ -124,9 +133,9 @@
   
       </div>
 
-      </div>
+      </article>
 
-      <div id="logopiedepag">
+      <article id="logopiedepag">
         <i class="fas fa-phone-square-alt"></i>
         <div>
           <p> Telefono</p>
@@ -134,9 +143,9 @@
           </p>
   
         </div>
-      </div>
+      </article>
     
-      <div id="logopiedepag">
+      <article id="logopiedepag">
         <i class="fas fa-at"></i> 
         <div>
           <p> Mail</p>
@@ -144,13 +153,13 @@
           </p>
           
         </div>
-      </div>
+      </article>
 
       
-
     </div>
+    
     <img src="imagen/Logopiedepag.png">
- </div>
+ </section>
 
   <h5>Todos los derechos reservados Front End</h5>
     </footer>
